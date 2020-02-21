@@ -21,7 +21,7 @@ public class ExplicitIntentActivity extends AppCompatActivity {
     public void onClickText(View Arg0){
         nameInput = findViewById(R.id.input_name);
         outputText = findViewById(R.id.text_output);
-        outputText.setText(nameInput.getText());
+        outputText.setText("Hello "+nameInput.getText()+", congratulation!");
     }
 
 }
